@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
 
 body {
   font-family: 'Inter', sans-serif;
@@ -43,5 +43,44 @@ header {
 
 .navbar a:hover {
   text-decoration: underline;
-  color: hsl(197, 100%, 78%);
+  color: hsl(197, 100%, 80%);
+}
+
+.intro {
+  background-color: hsl(187, 100%, 95%);
+  box-sizing: border-box;
+  height: 600px;
+  padding: 128px 0;
+  gap: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  margin-top: 0;
+}
+
+.cool-button {
+  background-color: hsl(200, 100%, 56%);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: background-color 150ms;
+}
+
+.cool-button:hover {
+  background-color: hsl(200, 91%, 43%);
+}
+
+.cool-button:active {
+  background-color: hsl(200, 100%, 30%);
+}
+
+.intro-image {
+  width: 500px;
+  height: auto;
 }
