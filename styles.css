@@ -91,3 +91,69 @@ header {
   height: auto;
   box-shadow: 0 0 30px 5px hsl(197, 100%, 74%);
 }
+
+.about {
+  text-align: center;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 56px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h2 {
+  margin-top: 0;
+}
+
+.about-body {
+  gap: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 200px;
+}
+
+.info img {
+  box-sizing: border-box;
+  width: 200px;
+  height: auto;
+  border: 3px hsl(200, 100%, 56%) solid;
+  border-radius: 10px;
+  transition: border-color 200ms
+}
+
+.info img:hover {
+  border-color: hsl(200, 100%, 30%);
+}
+
+.info p {
+  font-size: smaller;
+  margin-bottom: 0;
+}
+
+.quote {
+  background-color: hsl(188, 57%, 82%);
+  box-sizing: border-box;
+  height: 500px;
+  padding: 56px 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-body {
+  font-size: 28px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+.attribution {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 0;
+}
