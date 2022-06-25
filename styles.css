@@ -7,6 +7,8 @@ body {
 
 header {
   background-color: hsl(0, 0%, 21%);
+  box-sizing: border-box;
+  height: 8.5vh;
   padding: 16px 64px;
   display: flex;
   justify-content: space-between;
@@ -48,8 +50,8 @@ header {
 .intro {
   background-color: hsl(187, 100%, 95%);
   box-sizing: border-box;
-  height: 700px;
-  gap: 72px;
+  height: 91.5vh;
+  gap: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,7 +173,7 @@ header {
   box-sizing: border-box;
   width: 1150px;
   border-radius: 10px;
-  padding: 48px 64px;
+  padding: 32px 56px;
   gap: 96px;
   display: flex;
   justify-content: space-between;
