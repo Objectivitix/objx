@@ -157,3 +157,53 @@ header {
   font-weight: bold;
   margin-bottom: 0;
 }
+
+.cta {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  background-color: hsl(197, 100%, 80%);
+  box-sizing: border-box;
+  width: 1150px;
+  border-radius: 10px;
+  padding: 36px 64px;
+  gap: 96px;
+  display: flex;
+  align-items: center;
+}
+
+.cta h3 {
+  margin-top: 0;
+}
+
+.cta p {
+  margin-bottom: 0;
+}
+
+.big {
+  font-size: 22px;
+  padding: 22px;
+}
+
+footer {
+  text-align: center;
+  background-color: hsl(0, 0%, 21%);
+  color: hsl(0, 0%, 90%);
+  padding: 18px;
+}
+
+footer a {
+  color: hsl(197, 100%, 80%);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer a:active {
+  color: hsl(200, 100%, 65%);
+}
